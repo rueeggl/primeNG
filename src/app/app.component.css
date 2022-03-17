@@ -1,0 +1,7 @@
+::ng-deep .pi-chevron-right:before {
+  content: '\e9cf';
+}
+
+::ng-deep .pi-chevron-down:before {
+  content: '\e9cf';
+}

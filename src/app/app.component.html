@@ -1,0 +1,22 @@
+<h5>Basic</h5>
+<p-treeTable [value]="files1" autoLayout="true">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Name</th>
+      <th>Gesundheitseinrichtung</th>
+      <th>Fachrichtung</th>
+      <th>Adresse</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-rowNode let-rowData="rowData">
+    <tr [ttRow]="rowNode">
+      <td>
+        <p-treeTableToggler [rowNode]="rowNode"></p-treeTableToggler>
+        {{ rowData.name }}
+      </td>
+      <td>{{ rowData.businessCategories }}</td>
+      <td>{{ rowData.hcSpecializations }}</td>
+      <td>{{ rowData.address }}</td>
+    </tr>
+  </ng-template>
+</p-treeTable>

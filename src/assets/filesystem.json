@@ -1,0 +1,98 @@
+{
+  "data": [
+    {
+      "data": {
+        "name": "Universitätsspital Zürich",
+        "businessCategories": "Stationäre Einrichtung",
+        "hcSpecializations": "Neurologie",
+        "address": "Rämistrasse 100, 8091 Zürich",
+        "bur": "1234567",
+        "uid": "2.16.756.5.30.1.109.6.1:2.16.756.5.30.1.109.6.40.4.4.4:999000"
+      },
+      "children": [
+        {
+          "data": {
+            "name": "Klinik für Neurologie",
+            "businessCategories": "Andere Gesundheitsorganisation",
+            "hcSpecializations": "Radiologie",
+            "address": "Verwaltungsstrasse 25, 8091 Zürich"
+          },
+          "expanded": true
+        },
+        {
+          "data": {
+            "name": "Neurologische Abteilung USZ",
+            "businessCategories": "Institution für medizinische Diagnostik",
+            "hcSpecializations": "Pathologie",
+            "address": "Frauenklinikstrasse 42, 8000 Zürich"
+          },
+          "expanded": true
+        }
+      ],
+      "expanded": true
+    },
+    {
+      "data": {
+        "name": "Universitätsspital Basel",
+        "businessCategories": "Stationäre Einrichtung",
+        "hcSpecializations": "Psychologie",
+        "address": "Barfüsserplatz, 4000 Basel",
+        "bur": "1234567"
+      },
+      "children": [
+        {
+          "data": {
+            "name": "Radiologisches Institut",
+            "businessCategories": "Radiologie",
+            "hcSpecializations": "Radiologie",
+            "address": "Bahnhofstrasse 25, 4002 Basel"
+          },
+          "expanded": true
+        }
+      ],
+      "expanded": true
+    },
+    {
+      "data": {
+        "name": "Klinik Hirslanden",
+        "businessCategories": "Stationäre Einrichtung",
+        "hcSpecializations": "Psychologie",
+        "address": "Barfüsserplatz, 4000 Basel",
+        "bur": "3333322222"
+      },
+      "children": [
+        {
+          "data": {
+            "name": "Radiologisches Institut Suborg",
+            "businessCategories": "Radiologie",
+            "hcSpecializations": "Radiologie",
+            "address": "Bahnhofstrasse 25, 4002 Basel",
+            "bur": "999999999"
+          },
+          "children": [
+            {
+              "data": {
+                "name": "Radiologisches Institut Gruppe",
+                "businessCategories": "Radiologie",
+                "hcSpecializations": "Radiologie",
+                "address": "Bahnhofstrasse 25, 4002 Basel"
+              },
+              "expanded": true
+            },
+            {
+              "data": {
+                "name": "Neurologische Abteilung USZ",
+                "businessCategories": "Institution für medizinische Diagnostik",
+                "hcSpecializations": "Pathologie",
+                "address": "Frauenklinikstrasse 42, 8000 Zürich"
+              },
+              "expanded": true
+            }
+          ],
+          "expanded": true
+        }
+      ],
+      "expanded": true
+    }
+  ]
+}
